@@ -1,3 +1,4 @@
+/* This * selector applies to all elements to the webpage */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Here header is a class name and hence . selector is used */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -195,7 +197,7 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* This is a combination of selectors, under footer class apply this to all h4 element*/
 .footer h4 {
     font-size: 20px;
 }
